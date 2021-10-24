@@ -7,10 +7,9 @@ public class ChildInherit extends ParentInherit
     }
     public static void main(String args[])
     {
-    int a = 20, b =10;
     ChildInherit childinherit = new ChildInherit();
-    childinherit.addition(a,b);
-    childinherit.subtraction(a,b);
-    childinherit.multiplication(a,b);
+    childinherit.addition(20,10);
+    childinherit.subtraction(40,30);
+    childinherit.multiplication(5,4);
     }
 }
